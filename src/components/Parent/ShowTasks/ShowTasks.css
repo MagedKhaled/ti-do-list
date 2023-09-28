@@ -1,0 +1,44 @@
+
+
+.showContainer{
+    margin-top: 30px;
+    padding: 20px;
+    width: 800px;
+    height: 350px;
+    border: 3px solid black;
+}
+
+.showContainer h1{
+    color: gray;
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+.taskContainer {
+    overflow: scroll;
+    margin-top: 50px;   
+    height: 210px;
+    /* background-color: gray; */
+    width: 500px;
+    border: 3px black solid;
+    /* width: fit-content; */
+}
+.taskContainer label{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+    padding: 10px 0 10px 10px;
+    margin: 10px;
+
+}
+
+.taskContainer h1{
+    font-size: 20px;
+    color: black;
+}
+
+.taskContainer button{
+    margin: 0 5px;
+    width: 70px;
+}

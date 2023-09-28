@@ -1,0 +1,42 @@
+
+.firstEnterContainer{
+    margin-top: 100px;
+    width: 800px;
+    height: 350px;
+    border: 3px solid black;
+    padding: 10px;
+    color: white;
+}
+.enterContainer{
+    box-sizing:border-box;
+    height: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 100px;
+}
+
+.enterContainer input{
+    display: block;
+    width: 89%;
+
+}
+
+.enterContainer h1{
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+
+.enterContainer h4{
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+
+.enterContainer button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: 1px solid white;
+}
